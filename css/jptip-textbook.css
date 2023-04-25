@@ -1,0 +1,214 @@
+
+
+body {
+  font-family: "微軟正黑體修正","微軟正黑體","Microsoft JhengHei",MHei,STHeitiTC-Light,sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  color: #555555;
+  /* position: fixed; */
+  letter-spacing: 1px;
+  line-height: 1.8;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg,
+  rgb(244, 242, 242) 0.5pX,
+  transparent 1px,
+  transparent 100px
+  ),
+  linear-gradient(
+  90deg,
+  rgb(244, 242, 242) 0.5px,
+  transparent 1px,
+  transparent 100px
+  );
+  background-size: 10px 10px;
+  opacity: 1;
+  z-index: -1;
+}
+
+.img {
+  max-width: 100%;
+  height: auto!important;
+  border-style: none;
+}
+
+.navbar-collapse .navbar-nav .nav-item .p-1Rem {
+  padding: 0.5rem 1rem;
+}
+
+.menu-important {
+  background-color: #F28D01;
+  color: #ffffff  !important; 
+  border-radius: 5px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.chapter-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  margin-bottom: 72px
+}
+
+.chapter-titleH2 {
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 10px
+}
+
+.chapter-title::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 4px;
+  background-color: #F28D01;
+  left: 50%;
+  bottom: -16px;
+  transform: translateX(-50%);
+}
+
+.textbookTW-area, .feature-area, .share-area {
+  padding: 100px 0 0;
+}
+
+.form-area, .copyright-area {
+  padding: 50px 0 0;
+}
+
+.textbookTW-area .row {
+  width: 93%;
+  margin: 72px auto 0 auto;
+  align-items: center;
+}
+
+.textbookImg {
+  display: flex;
+  justify-content: right;
+  padding-right: 40px;
+}
+
+.textbookImg img {
+  display: block;
+}
+
+.goBtn {
+  margin-top: 24px;
+}
+
+.goBtn a, .goBtn button {
+  background-color: #F28D01;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border: 0;
+}
+
+.featureContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featureContent .card {
+  margin: 0 10px;
+}
+
+.cardInner, .cardInner-l {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.form-area {
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.formContent .form-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.formBox {
+  margin: 10px;
+}
+
+.formBox .box {
+  padding: 28px 20px;
+  border-radius: 8px;
+}
+
+.box {
+  background-color: #F4F4F4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.box .boxTitle {
+  vertical-align: middle;
+  padding: 0 20px 0 25px;
+  border-right: 3px solid #F28D01;
+}
+
+.boxTitle {
+  color: #F28D01;
+}
+
+input {
+  width: 100%;
+  color: #575757;
+  outline: 0 none;
+  background: 0 0;
+  border: none;
+}
+
+.formCheckbox input {
+  width: auto;
+  border-radius: 10px;
+}
+
+/* footer */
+.copyrightP {
+  text-align: center;
+  color: #b2b2b2;
+}
+
+
+@media (max-width: 992px) {
+  .textbookImg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+}
+
+
